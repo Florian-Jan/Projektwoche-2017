@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WIn_Projektwoche", "WIn_Projektwoche\WIn_Projektwoche.csproj", "{30D397BA-BCE5-4FFC-AACB-52EBADA13925}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WIN_Projektwoche_Server", "WIn_Projektwoche\WIN_Projektwoche_Server.csproj", "{30D397BA-BCE5-4FFC-AACB-52EBADA13925}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WIN_Projektwoche_Client", "WIN_Projektwoche_Client\WIN_Projektwoche_Client.csproj", "{1326B71B-0344-4B1C-BA38-4C525D0E811B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{30D397BA-BCE5-4FFC-AACB-52EBADA13925}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30D397BA-BCE5-4FFC-AACB-52EBADA13925}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30D397BA-BCE5-4FFC-AACB-52EBADA13925}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1326B71B-0344-4B1C-BA38-4C525D0E811B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1326B71B-0344-4B1C-BA38-4C525D0E811B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1326B71B-0344-4B1C-BA38-4C525D0E811B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1326B71B-0344-4B1C-BA38-4C525D0E811B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
