@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WIN_Projektwoche_Client
 {
-    public partial class Form1 : Form
+    public partial class WIN_Projektwoche_Client : Form
     {
-        public Form1()
+        public WIN_Projektwoche_Client()
         {
             InitializeComponent();
         }
