@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{425E9C18-0B71-4C0D-A2D6-86723F524DDB}</ProjectGuid>
+    <ProjectGuid>{1326B71B-0344-4B1C-BA38-4C525D0E811B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WIN_Projektwoche_Server</RootNamespace>
-    <AssemblyName>WIN_Projektwoche_Server</AssemblyName>
+    <RootNamespace>WIN_Projektwoche_Client</RootNamespace>
+    <AssemblyName>WIN_Projektwoche_Client</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -53,9 +53,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
